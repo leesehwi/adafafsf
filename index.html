@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Form</title>
+    <meta charset = "utf-8">
+</head>
+
+
+<body>
+    <form action = "insert.php" method = "post">
+        <table>
+            <tr>
+                <td>Employee Number :</td>
+                <td><input type = "text" name = "enumber" required></td>
+            </tr>
+            <tr>
+                <td>Name :</td>
+                <td><input type = "text" name = "username" required></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type = "password" name = "password" required></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td><input type = "radio" name = "gender" value = "m">Male
+                <input type = "radio" name = "gender" value = "f">Female</td>
+            </tr>
+            <tr>
+                <td>E-mail :</td>
+                <td><input type = "email" name = "email" required></td>
+            </tr>
+            <tr>
+                <td>Department :</td>
+                <td>
+                    <select name = "dept"  style ="text-align-last:center; width:177px;">
+                        <option selected hidden>Department</option>
+                        <option value = "인사">인사</option>
+                        <option value = "경영">경영</option>
+                        <option value = "영업">영업</option>
+                        <option value = "연구">연구</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type = "submit" value = "Submit"></td>             
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
