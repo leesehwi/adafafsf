@@ -1,5 +1,5 @@
 <?php
-    $host = "localhost";
+    $host = "172.30.1.20";
     $dbusername = "root";
     $dbpassword = "gs9597";
     $dbname = "sehwiweb";
