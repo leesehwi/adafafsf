@@ -6,7 +6,7 @@ $gender = $_POST['gender'];
 $email = $_POST['email'];
 $dept = $_POST['dept'];
 
-$host = "172.30.1.20:3306";
+$host = "172.30.1.20";
 $dbusername = "sehwi";
 $dbpassword = "gs9597";
 $dbname = "sehwiweb";
