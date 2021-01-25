@@ -1,6 +1,7 @@
 <?php
-    $host = "183.100.228.173";
-    $dbusername = "sehwi";
+    header('Content-Type: text/html; charset=UTF-8');
+    $host = "34.84.121.168:3306";
+    $dbusername = "root";
     $dbpassword = "gs9597";
     $dbname = "sehwiweb";
 

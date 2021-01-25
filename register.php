@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=utf-8');
 $userid = $_POST['userid'];
 $password = $_POST['password'];
 $username = $_POST['username'];
@@ -6,8 +7,8 @@ $gender = $_POST['gender'];
 $email = $_POST['email'];
 $dept = $_POST['dept'];
 
-$host = "183.100.228.173";
-$dbusername = "sehwi";
+$host = "34.84.121.168:3306";
+$dbusername = "root";
 $dbpassword = "gs9597";
 $dbname = "sehwiweb";
 // Create connection
