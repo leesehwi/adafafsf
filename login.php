@@ -1,5 +1,5 @@
 <?php
-    $host = "172.30.1.20";
+    $host = "183.100.228.173";
     $dbusername = "sehwi";
     $dbpassword = "gs9597";
     $dbname = "sehwiweb";
