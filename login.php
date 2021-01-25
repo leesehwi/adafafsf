@@ -1,6 +1,6 @@
 <?php
     $host = "172.30.1.20:3306";
-    $dbusername = "root";
+    $dbusername = "sehwi";
     $dbpassword = "gs9597";
     $dbname = "sehwiweb";
 
